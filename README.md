@@ -1,5 +1,5 @@
 # Self-Driving-Car-CARLA
- Autonomous driving agent in CARLA Simulator trained using reinforcement learning.
+ Autonomous driving agent in the CARLA Simulator trained using reinforcement learning.
  
  # Method to collect data with carla:
  1. Open a terminal in the main installed `carla` package folder. Run the following command to execute package file and start the simulation:
