@@ -1,15 +1,15 @@
 # Self-Driving-Car-CARLA
  Autonomous driving agent in the CARLA Simulator trained using reinforcement learning.
  
- # Method to collect data with carla:
+ # Method to run it with carla:
  1. Open a terminal in the main installed `carla` package folder. Run the following command to execute package file and start the simulation:
   ``` 
   ./CarlaUE4.sh  
   ``` 
-  2. Copy and paste the file `src/utils/datacollector.py`(in this repo) inside your installed carla package at location `PythonAPI/examples` folder.
+  2. Copy and paste the file `main.py`(in this repo) inside your installed carla package at location `PythonAPI/examples` folder.
   3. Open another terminal inside `PythonAPI/example` and run following command to start collecting data:
   ``` 
-  python3 datacollector.py --sync -m Town01 -l  
+  python3 main.py --sync -m Town01 -l  
   ```
   4. Optional- Run in parallel in new terminal 
   ```
